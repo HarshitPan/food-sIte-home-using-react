@@ -1,0 +1,39 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.custom-btn{
+  cursor:pointer;
+  font-weight:700;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  border:solid 3px rgb(21, 2, 2);
+  text-decoration: none;
+} 
+.back-trans{
+  background-color: transparent;
+  border-radius: 40px;
+  
+  color:black;
+  transition: all .5s ease;
+}
+.back-trans:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.circle-icon{
+  margin-left:10px;
+
+  padding-top:1px;
+  padding-bottom:3px;
+  padding-left: 4px;
+  padding-right:4px;
+  border-radius: 50%;
+}
+.grey-border-3{
+  border:solid 2px grey;
+}
